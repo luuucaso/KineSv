@@ -2,5 +2,6 @@ fastapi
 uvicorn
 tensorflow==2.10.1
 numpy==1.23.5
+protobuf==3.19.6
 pydantic
 python-multipart
