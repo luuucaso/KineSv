@@ -472,7 +472,7 @@ async function predictSign() {
 
         const response =
             await fetch(
-                "https://social-dodos-dress.loca.lt/predict",
+                "https://kinesv-production.up.railway.app/predict",
                 {
                     method: "POST",
 
