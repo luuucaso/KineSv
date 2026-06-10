@@ -22,7 +22,7 @@ web-build/
 
 # Dataset y modelos grandes (opcional)
 backend/dataset/
-*.h5
+
 *.keras
 
 # Logs
