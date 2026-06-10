@@ -1,7 +1,6 @@
 fastapi
 uvicorn
-tensorflow
-numpy
-opencv-python
-mediapipe
+tensorflow==2.10.1
+numpy==1.23.5
+pydantic
 python-multipart
