@@ -1,0 +1,29 @@
+# Python
+backend/venv/
+venv/
+__pycache__/
+*.pyc
+
+# Expo / React Native
+node_modules/
+.expo/
+.expo-shared/
+
+# Build
+dist/
+build/
+web-build/
+
+# Python env
+.env
+
+# VSCode
+.vscode/
+
+# Dataset y modelos grandes (opcional)
+backend/dataset/
+*.h5
+*.keras
+
+# Logs
+*.log
