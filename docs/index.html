@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>KineSign v2</title>
+
+  <link rel="stylesheet" href="style.css">
+
+  <script type="module" src="app.js"></script>
+</head>
+<body>
+
+  <div class="container">
+
+    <h1>KineSign v2</h1>
+
+    <video id="video" autoplay playsinline display="none"></video>
+
+    <canvas id="canvas"></canvas>
+<div class="controls">
+
+  <input
+    type="text"
+    id="labelInput"
+    placeholder="Nombre de la seña"
+  >
+
+  <button id="recordButton">
+    Grabar Seña
+  </button>
+
+</div>
+
+    <div class="card">
+      <h2 id="prediction">Esperando...</h2>
+      <p id="confidence">Confianza: 0%</p>
+    </div>
+
+  </div>
+
+</body>
+</html>
