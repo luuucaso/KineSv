@@ -14,12 +14,6 @@ const predictionElement =
 const confidenceElement =
     document.getElementById("confidence");
 
-const recordButton =
-    document.getElementById("recordButton");
-
-const labelInput =
-    document.getElementById("labelInput");
-
 /*
 ====================================
 VARIABLES
