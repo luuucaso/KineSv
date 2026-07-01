@@ -47,29 +47,6 @@ BOTÓN GRABAR
 ====================================
 */
 
-recordButton.addEventListener(
-    "click",
-    () => {
-
-        const label =
-            labelInput.value.trim();
-
-        if (!label) {
-
-            alert("Escribí un nombre");
-
-            return;
-        }
-
-        recordedFrames = [];
-
-        recording = true;
-
-        predictionElement.innerText =
-            "Grabando...";
-    }
-);
-
 /*
 ====================================
 CONEXIONES MANO
